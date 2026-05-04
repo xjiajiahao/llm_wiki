@@ -36,6 +36,7 @@
 
 ## 来源
 
+- 来源页中的“原始路径”链接统一使用相对 `raw/` 路径，便于跨机器迁移。
 - [[sources/deepseek-v3-technical-report]] - 2024 年 `DeepSeek-V3` 技术报告的来源页。
 - [[sources/deepseek-v4-technical-report]] - 2026 年 `DeepSeek-V4` 技术报告的来源页。
 - [[sources/ppo-algorithm-explanation-conversation]] - 一份围绕 `PPO`、`GAE` 与 `LLM RLHF` 的讲解型问答来源。

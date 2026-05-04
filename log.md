@@ -52,6 +52,12 @@
 - 补充 `Flash` 与 `Pro` 的压缩率、top-k、head 数、query 压缩维度、输出分组与滑窗大小。
 - 记录稀疏注意力的引入时机：`1T tokens` dense warmup、`64K` 阶段引入 sparse attention 与 indexer warmup。
 
+## [2026-05-04] tool | PDF 论文公式抽取 workflow skill
+
+- 在 `skills/pdf-paper-formula-workflow/` 下创建可复用 skill。
+- 增加 `extract_pdf_context.py`，支持按页和按关键词抽取 PDF 局部上下文。
+- 将“原生文本 PDF 优先、局部页窗口抽取、保守公式重建、跨模型适配”整理为可复用 skill 工作流。
+
 ## [2026-05-03] expand | 补充基础 attention 与 MHA 概念页
 
 - 新增基础 `attention` 页面，统一采用输入矩阵 $n \times d$ 的形状约定。
@@ -77,3 +83,9 @@
 
 - 在 `policy gradient` 页面补充 baseline 如何通过最小化条件二阶矩来降低方差，而不只是保持无偏。
 - 增加最优 baseline 的形式、与 `V(s)` 之间的近似关系，以及“去掉状态级公共噪声”的直觉说明。
+
+## [2026-05-04] refactor | 将仓库内绝对路径改为相对路径
+
+- 将 `sources/` 页面中指向 `raw/` 的绝对文件路径统一改为相对路径，便于跨机器使用。
+- 将 `README.md` 中指向仓库内页面的绝对路径链接改为相对链接。
+- 在 `index.md` 同步记录来源页原始路径链接采用相对 `raw/` 路径的约定。

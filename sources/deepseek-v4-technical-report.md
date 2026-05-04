@@ -3,7 +3,7 @@
 ## 来源记录
 
 - 原始文件：`raw/DeepSeek-AI - 2026 - DeeppSeek-V4 Technical Report.pdf`
-- 原始路径：[DeepSeek-AI - 2026 - DeeppSeek-V4 Technical Report.pdf](/Users/xiejh/code/playground/llm_wiki/raw/DeepSeek-AI%20-%202026%20-%20DeeppSeek-V4%20Technical%20Report.pdf)
+- 原始路径：[DeepSeek-AI - 2026 - DeeppSeek-V4 Technical Report.pdf](../raw/DeepSeek-AI%20-%202026%20-%20DeeppSeek-V4%20Technical%20Report.pdf)
 - 文件名日期：`2026`
 - 仓库文件时间戳：`2026-04-25`
 - 文件大小：`4,479,907 bytes`

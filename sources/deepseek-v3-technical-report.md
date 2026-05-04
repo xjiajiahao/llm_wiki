@@ -3,7 +3,7 @@
 ## 来源记录
 
 - 原始文件：`raw/DeepSeek-AI et al. - 2024 - DeepSeek-V3 Technical Report.pdf`
-- 原始路径：[DeepSeek-AI et al. - 2024 - DeepSeek-V3 Technical Report.pdf](/Users/xiejh/code/playground/llm_wiki/raw/DeepSeek-AI%20et%20al.%20-%202024%20-%20DeepSeek-V3%20Technical%20Report.pdf)
+- 原始路径：[DeepSeek-AI et al. - 2024 - DeepSeek-V3 Technical Report.pdf](../raw/DeepSeek-AI%20et%20al.%20-%202024%20-%20DeepSeek-V3%20Technical%20Report.pdf)
 - 文件名日期：`2024`
 - 首页报告日期：`2024-12-27`，来自 `arXiv:2412.19437v1`
 - 仓库文件时间戳：`2025-02-06`

@@ -25,8 +25,8 @@
 
 ## 从这里开始
 
-- [index.md](/Users/xiejh/code/playground/llm_wiki/index.md)
-- [log.md](/Users/xiejh/code/playground/llm_wiki/log.md)
+- [index.md](./index.md)
+- [log.md](./log.md)
 - [[concepts/llm-taxonomy]]
 - [[concepts/transformer-block]]
 - [[concepts/mixture-of-experts]]
