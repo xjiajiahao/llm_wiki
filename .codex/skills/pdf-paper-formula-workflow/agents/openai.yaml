@@ -1,0 +1,7 @@
+interface:
+  display_name: "PDF Formula Workflow"
+  short_description: "Extract and normalize formulas from native-text PDF papers"
+  default_prompt: "Use $pdf-paper-formula-workflow to extract formulas and algorithm steps from a technical PDF conservatively."
+
+policy:
+  allow_implicit_invocation: true
