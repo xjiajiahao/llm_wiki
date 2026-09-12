@@ -89,3 +89,15 @@
 - 将 `sources/` 页面中指向 `raw/` 的绝对文件路径统一改为相对路径，便于跨机器使用。
 - 将 `README.md` 中指向仓库内页面的绝对路径链接改为相对链接。
 - 在 `index.md` 同步记录来源页原始路径链接采用相对 `raw/` 路径的约定。
+
+## [2026-06-06] refactor | 从 LLM wiki 扩展为跨领域研究 wiki
+
+- 将仓库入口与 `AGENTS.md` 从“大模型知识 wiki”改写为可容纳多个研究方向的研究 wiki。
+- 新增仓库级 [[concepts/research-taxonomy]]，并把 `index.md` 改为“跨领域总览 + 领域分区”结构。
+- 保留 `concepts/` 优先原则，同时明确 `models/` 目录目前主要服务于大模型领域。
+
+## [2026-06-06] ingest | 摄取两篇 Gardeyn 的 2D Nesting 论文
+
+- 为 `Gardeyn` 的 `CDE / jagua-rs` 论文与 `sparrow / 2DISPP` 论文各建立一个 `sources/` 页面，记录元数据、摘要、公式与待继续处理项。
+- 新增 `2D nesting taxonomy`、`2D irregular C&P`、`2D irregular strip packing` 与 `collision detection engine for 2D nesting` 四个概念页。
+- 在索引中增加 `2D Nesting` 领域分区，把来源页和概念页纳入主入口。
